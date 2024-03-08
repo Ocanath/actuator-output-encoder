@@ -399,6 +399,18 @@
 
   (gr_circle locked (center 142.035 95.25) (end 146.035 95.25)
     (stroke (width 0.001) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp c3d071df-75c7-43a7-beb4-93916a22e4a5))
+  (gr_text "3V3" (at 140.105 96.83) (layer "B.SilkS") (tstamp 403e5cac-65f2-4e36-ba1d-8b0f26a9a4d0)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom mirror))
+  )
+  (gr_text "COS" (at 142.935 92.9) (layer "B.SilkS") (tstamp c9961dad-023c-4bd8-8ea7-2dce83621f6b)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom mirror))
+  )
+  (gr_text "SIN" (at 142.765 98.4) (layer "B.SilkS") (tstamp ccbcc9c3-a9c6-46ab-9768-666dbf085670)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom mirror))
+  )
+  (gr_text "GND" (at 145.525 96.92) (layer "B.SilkS") (tstamp ea195b5b-3853-4d07-b2d0-f9bd0fa63944)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom mirror))
+  )
 
   (segment (start 143.94 92.625) (end 143.94 93.105) (width 0.4) (layer "F.Cu") (net 2) (tstamp 01081f39-9c13-4e1c-8e32-7670a5f84ff5))
   (segment (start 144.2 92.625) (end 145.005 93.43) (width 0.4) (layer "F.Cu") (net 2) (tstamp 41cca191-f989-482c-8b21-17b45bf1f850))
