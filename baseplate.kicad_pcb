@@ -1,7 +1,7 @@
 (kicad_pcb (version 20221018) (generator pcbnew)
 
   (general
-    (thickness 1.6)
+    (thickness 1)
   )
 
   (paper "A4")
@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 0.91) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (aux_axis_origin 143.415 102.1)
     (grid_origin 143.415 102.1)
@@ -669,6 +682,18 @@
 
   (gr_circle locked (center 143.415 102.1) (end 159.415 102.1)
     (stroke (width 0.25) (type solid)) (fill none) (layer "Edge.Cuts") (tstamp 8514f495-e4db-4aeb-8090-bcfc415db359))
+  (gr_text "COS" (at 142.525 105.17) (layer "F.SilkS") (tstamp 3465c1ae-3945-4343-a6d8-33db0af6cc58)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom))
+  )
+  (gr_text "SIN" (at 142.715 99.79) (layer "F.SilkS") (tstamp 3e1bdca1-13a1-4e96-90c8-2bacf7114544)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom))
+  )
+  (gr_text "GND" (at 146.655 102.35) (layer "F.SilkS") (tstamp 4b80fc71-69a3-42a4-8d0b-b14060b098e4)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom))
+  )
+  (gr_text "+3V3" (at 138.065 102.39) (layer "F.SilkS") (tstamp 6338c297-fced-4589-968d-ad6670c010d6)
+    (effects (font (size 0.5 0.5) (thickness 0.1) bold) (justify left bottom))
+  )
 
   (segment (start 151.305 102.45) (end 151.305 102.67) (width 0.254) (layer "F.Cu") (net 1) (tstamp 0651b2f0-7656-4402-86eb-687665e9da91))
   (segment (start 151.305 102.67) (end 151.635 103) (width 0.254) (layer "F.Cu") (net 1) (tstamp 0d33154b-0e39-4473-9c67-05eb7e6b9c13))
