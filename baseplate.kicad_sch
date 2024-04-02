@@ -631,8 +631,11 @@
   )
 
   (no_connect (at 81.28 42.545) (uuid 2c7a7d3c-7128-4d99-ad9a-a89ee3238afd))
+  (no_connect (at 69.85 140.97) (uuid 2ecc3838-a552-4e8f-8d10-2889a2f75820))
+  (no_connect (at 69.85 133.35) (uuid 75cda890-5948-403d-a16f-dbe831f93a8f))
   (no_connect (at 81.28 34.925) (uuid 868a213b-f8c5-43a0-9b6f-565399f8571d))
   (no_connect (at 81.28 45.085) (uuid 87e4e83f-b6a0-4e73-b7d9-61937de5581c))
+  (no_connect (at 69.85 137.16) (uuid b2aa0a1b-e19b-4404-87c4-586fcc667370))
   (no_connect (at 58.42 40.005) (uuid cd029ca4-96ce-4d38-add7-90b502323a55))
   (no_connect (at 58.42 37.465) (uuid ced236f9-276e-439a-9725-660540a10265))
   (no_connect (at 58.42 50.165) (uuid d2ee0fb1-bf1e-4b3a-8aaa-56a6a2813378))
@@ -951,6 +954,31 @@
       (project "baseplate"
         (path "/a662c0e4-ec1a-48b1-bec9-50725807a156"
           (reference "M5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "adapter-encoder:THRU_HOLE_PAD") (at 72.39 133.35 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 437bcacf-95ab-4b93-ac12-ec5769f9f9d9)
+    (property "Reference" "M8" (at 75.565 133.35 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "THRU_HOLE_PAD" (at 72.39 129.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "adapter-encoder:MountingHole3mm" (at 74.93 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 70be2c3b-c303-47bd-b971-02ec945ac2d7))
+    (instances
+      (project "baseplate"
+        (path "/a662c0e4-ec1a-48b1-bec9-50725807a156"
+          (reference "M8") (unit 1)
         )
       )
     )
@@ -1414,6 +1442,31 @@
     )
   )
 
+  (symbol (lib_id "adapter-encoder:THRU_HOLE_PAD") (at 72.39 137.16 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c934e01f-0a64-4a17-af50-92fad61bbb62)
+    (property "Reference" "M9" (at 75.565 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "THRU_HOLE_PAD" (at 72.39 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "adapter-encoder:MountingHole3mm" (at 74.93 134.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid df97e400-4dae-4eb4-9f97-518b44f52019))
+    (instances
+      (project "baseplate"
+        (path "/a662c0e4-ec1a-48b1-bec9-50725807a156"
+          (reference "M9") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "adapter-encoder:Capacitor") (at 80.645 81.915 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3a86208-c3e1-4ceb-94d0-40b9f8e46b7b)
@@ -1495,6 +1548,31 @@
       (project "baseplate"
         (path "/a662c0e4-ec1a-48b1-bec9-50725807a156"
           (reference "M3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "adapter-encoder:THRU_HOLE_PAD") (at 72.39 140.97 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ee940d47-d92b-4f97-9b5d-eafe80b1be5d)
+    (property "Reference" "M10" (at 75.565 140.97 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "THRU_HOLE_PAD" (at 72.39 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "adapter-encoder:MountingHole3mm" (at 74.93 138.43 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c7fa414f-40f3-4459-b768-6d62357a3313))
+    (instances
+      (project "baseplate"
+        (path "/a662c0e4-ec1a-48b1-bec9-50725807a156"
+          (reference "M10") (unit 1)
         )
       )
     )
